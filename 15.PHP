@@ -13,7 +13,7 @@ $nameErr = $emailErr = $mobilenoErr = $genderErr = $websiteErr = $agreeErr = "";
 $name = $email = $mobileno = $gender = $website = $agree = "";  
   
 //Input fields validation  
-if ($_SERVER["REQUEST_METHOD"] == "POST") {  
+ {  
       
 //String Validation  
     if (empty($_POST["name"])) {  
