@@ -8,7 +8,7 @@ if($con){
     echo "no connection";
 }
 
-$db = mysqli_select_db($con, 'youtubeadmin');
+
 
 if(isset($_POST['submit'])){
     $username = $_POST['user'];
